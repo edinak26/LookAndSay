@@ -41,7 +41,7 @@ public class Model {
             return false;
         return currentValue.get(index)==currentValue.get(index+1);
     }
-    public ArrayList<Character> getCurrentValue(){sdfsdfsdf
+    public ArrayList<Character> getCurrentValue(){
         return currentValue;
     }
 }
