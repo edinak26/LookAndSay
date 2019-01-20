@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class Model {
     String startValue;
     ArrayList<Character> currentValue;
-    public static final int MAX_GENERATE_NUM = 25;
+    public static final int MAX_GENERATE_NUM = 20;
 
     public Model() {
 

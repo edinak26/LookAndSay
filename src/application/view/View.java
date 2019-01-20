@@ -15,6 +15,7 @@ public class View implements ViewMessages{
         return startingNumber;
     }
     public void printValue(ArrayList value){
+        System.out.print(value.size()+" : ");
         for(int i=0;i<value.size();i++){
             System.out.print(value.get(i));
         }
